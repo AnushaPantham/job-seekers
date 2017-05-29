@@ -1,0 +1,110 @@
+@CHARSET "ISO-8859-1";
+
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+#nav {
+	background-color:#eeeeee;
+    text-align:center;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+  	padding:10px;	 	 
+}
+footer {
+    width: 100%;
+    position: absolute;
+    background-color:gold;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+form{
+    width: 400px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+
+form > h1{
+    margin-bottom: 30px;
+}
+
+.leftElement{
+    width: 40%;
+    float: left;
+}
+
+.rightElement{
+    width: 60%;
+    float: right;
+}
+
+#submit_div{
+    text-align: center
+}
+
+#submit_div input{
+    margin-right: 10px;
+}
+
+#nav a{
+    margin-right: 20px;
+}
+
+.clearfix{
+    overflow: hidden;
+}
+
+#requirement{
+    border: 1px solid gray;
+    margin: 10px 10px 10px 0px;
+    width: 30%;
+    float: left;
+}
+
+#info{
+    width: 60%;
+    float: left;
+}
+
+#apply_div{
+    display: table;
+    position: relative;
+}
+
+#apply_div > div{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+#nav a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+#jobDetails a.jobDetails{
+    text-decoration: none;
+    color: black;
+}
+.info-div {
+    margin-top: 2px;
+    /*background-color: #a20e45;*/
+    width: 95%;
+    /*display: inline-block;*/
+}
+.info-div img {
+    float:inherit;
+    width: 100%;
+    padding-top:0px;
+}
